@@ -204,9 +204,9 @@ Example:
 
 👤 **Christian Onoh**
 
-- GitHub: [@uuukiiiyooo](https://github.com/christianonoh)
-- Twitter: [@uuukiiiyooo](https://twitter.com/onohchristian)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/christianonoh)
+- GitHub: [@christianonoh](https://github.com/christianonoh)
+- Twitter: [@onohchristian](https://twitter.com/onohchristian)
+- LinkedIn: [Christian Onoh](https://www.linkedin.com/in/christianonoh)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

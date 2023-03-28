@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial', sans-serif;
+}
+
+body {
+  background-color: #2c3333;
+}
+
+h2 {
+  padding: 15px 0 12px;
+  color: #cbe4de;
+}
+
+/* Nav bar  */
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #cbe4de;
+  padding: 0 10%;
+}
+
+.logo {
+  width: 30%;
+}
+
+.logo img {
+  width: 100%;
+  padding: 0.8rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item:hover {
+  background-color: #2e4f4f;
+}
+
+.nav-link {
+  display: flex;
+  text-decoration: none;
+  color: #2e4f4f;
+  padding: 0 1rem;
+  height: 100%;
+  align-items: center;
+}
+
+.nav-link:hover {
+  color: #cbe4de;
+  font-weight: 500;
+}
+
+.current-date {
+  display: flex;
+  justify-content: end;
+  padding: 0.5rem 10%;
+  color: #cbe4de;
+}
+
+/* Book list  */
+.listDisplays {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: calc(2.5rem + 5%);
+}
+
+h1 {
+  color: #cbe4de;
+  padding: 2rem 0 1.5rem;
+}
+
+#listDisplay ul {
+  width: 80%;
+  margin: 0 0 25px;
+  border: 2px solid #cbe4de;
+  border-radius: 4px;
+}
+
+#listDisplay li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  list-style: none;
+  line-height: 18px;
+  color: #cbe4de;
+  background-color: #2e4f4f;
+}
+
+#listDisplay li:nth-child(2n) {
+  background-color: #0e8388;
+}
+
+#listDisplay span {
+  width: 80%;
+}
+
+#listDisplay button {
+  width: 90px;
+  height: 27px;
+  border-radius: 7px;
+  border: 1px solid #2e4f4f;
+  color: #2c3333;
+}
+
+#divider {
+  width: 60%;
+  height: 2px;
+  margin: auto;
+  background-color: #2e4f4f;
+}
+
+.inputDatas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+}
+
+#inputData input {
+  margin: 0 0 12px;
+  padding: 0 10px;
+  width: 45%;
+  height: 25px;
+  border: 1px solid #2e4f4f;
+}
+
+#inputData button {
+  width: 90px;
+  height: 27px;
+  border: 1px solid #2e4f4f;
+  color: #2c3333;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 10%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  align-items: center;
+  background-color: #2c3333;
+}
+
+#footer p {
+  color: #cbe4de;
+}
+
+/* contact section */
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 67%;
+  margin: auto;
+}
+
+#contact p {
+  color: #cbe4de;
+  line-height: 1.5rem;
+  padding: 0 0 1.5rem;
+}
+
+#contact ul {
+  color: #cbe4de;
+  line-height: 1.5rem;
+}
+
+.hidden {
+  display: none;
+}
